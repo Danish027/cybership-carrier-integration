@@ -1,6 +1,6 @@
 # Cybership Carrier Integration Service
 
-A production-style carrier integration service built in TypeScript, focused on UPS Rating. The design favors **functional composition** (factory functions + closures) over classes, making it easy to add new carriers or new operations without rewriting existing code.
+A production-style carrier integration service built in TypeScript, focused on UPS Rating. 
 
 ## What’s Inside
 
@@ -115,8 +115,3 @@ Run the tests:
 npm test
 ```
 
-## If I Had More Time
-
-- Add label and tracking operations with shared carrier interfaces.
-- Add structured logging and tracing hooks.
-- Expand UPS support for negotiated rates and additional options.
