@@ -1,0 +1,20 @@
+{
+  "name": "cybership-carrier-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Carrier integration service with UPS Rating API",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3",
+    "vitest": "^1.6.0"
+  }
+}
